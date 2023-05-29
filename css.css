@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(31, 31, 31);
+    color: rgb(224, 224, 224);
+    font-size: 2vw;
+    font-family: 'kanit';
+    opacity: 1;
+}
+
+.opciones{
+    padding: 1vw;
+    background: rgb(20, 20, 20);
+    display: inline-block;
+    border: 2px solid rgba(78, 78, 78, 0.712);
+    position: absolute;
+    top: 30vw;
+    left: 82vw;
+}
+
+#contenedorResultaos{
+    display: inline-block;
+    padding: 2vw;
+    height: 45vw;
+    background: rgb(20, 20, 20);
+    border: 4px solid rgba(63, 63, 63, 0.486);
+    width: 45vw;
+    margin-left: 3vw;
+    overflow-y: scroll;
+}
+
+#contenedorResultaos::-webkit-scrollbar{
+    background-color: rgb(17, 17, 17);
+    width: 1vw;
+}
+
+#contenedorResultaos::-webkit-scrollbar-thumb{
+    background-color: rgb(48, 48, 48);
+}
+
+p{
+    margin-left: 2vw;
+    margin-top: 1vw;
+    font-size: 1.8vw;
+}
+
+input{
+    display: block;
+    background-color: rgb(55, 55, 55);
+    border: none;
+    width: 11vw;
+    height: 3vw;
+    font-size: 2vw;
+    color: #fff;
+    outline: none;
+    padding: 1vw;
+    margin: 1vw;
+    transition: 200ms;
+}
+
+input:hover{
+    background-color: rgb(39, 39, 39);
+    transition: 200ms;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+button{
+    color: #fff;
+    background-color: rgb(55, 55, 55);
+    font-size: 1.5vw;
+    font-family: 'kanit';
+    padding: 0.5vw;
+    margin-left: 2.3vw;
+    border: 2px solid rgba(88, 88, 88, 0.637);
+    cursor: pointer;
+    transition: 180ms;
+    letter-spacing: 1px;
+}
+
+button:hover{
+    background-color: rgb(36, 36, 36);
+    transition: 180ms;
+}
